@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-23T14:30:09.307Z",
+        "line": 3,
+        "name": "Trust Wallet Legal Screen",
+        "description": "",
+        "id": "trust-wallet-legal-screen;trust-wallet-legal-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29884000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches is on the legal screen",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_launches_is_on_the_legal_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5232000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on the privacy policy",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_clicks_on_the_privacy_policy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3707000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user closes the privacy policy",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_closes_the_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2505000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the terms of service",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_clicks_on_the_terms_of_service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2871000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user closes the terms of policy",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_closes_the_terms_of_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2282000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the check box to accept the terms of service and privacy policy",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_clicks_on_the_check_box_to_accept_the_terms_of_service_and_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1457000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the continue button",
+            "match": {
+              "location": "stepDefinitions.TrustWalletLegal.user_clicks_on_the_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trust Wallet Legal Screen",
+    "description": "",
+    "id": "trust-wallet-legal-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TrustWalletLegal.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-23T14:30:57.484Z",
+        "line": 3,
+        "name": "Trust Wallet Welcome Screen",
+        "description": "",
+        "id": "trust-wallet-welcome-screen;trust-wallet-welcome-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34887000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches the trust wallet app",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_launches_the_trust_wallet_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1740000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user can see the inscription private and secure, create a new wallet and i already have a wallet buttons",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_can_see_the_inscription_private_and_secure_create_a_new_wallet_and_i_already_have_a_wallet_buttons()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6390000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can swipe to the right to see the inscription all assets in one place",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_can_swipe_to_the_right_to_see_the_inscription_all_assets_in_one_place()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4986000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user can swipe to the right again to see the inscription trade assets",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_can_swipe_to_the_right_again_to_see_the_inscription_trade_assets()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4531000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user can swipe to the right to see the last screen with the inscription explore decentralized apps",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_can_swipe_to_the_right_to_see_the_last_screen_with_the_inscription_explore_decentralized_apps()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5938000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the create a new wallet button",
+            "match": {
+              "location": "stepDefinitions.TrustWalletWelcome.user_clicks_on_the_create_a_new_wallet_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trust Wallet Welcome Screen",
+    "description": "",
+    "id": "trust-wallet-welcome-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TrustWalletWelcome.feature",
+    "tags": []
+  }
+]

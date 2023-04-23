@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="107.052">
+<testcase classname="Trust Wallet Legal Screen" name="Trust Wallet Legal Screen" time="48.146">
+<system-out><![CDATA[Given user launches is on the legal screen..................................passed
+When user clicks on the privacy policy......................................passed
+And user closes the privacy policy..........................................passed
+Then user clicks on the terms of service....................................passed
+And user closes the terms of policy.........................................passed
+And user clicks on the check box to accept the terms of service and privacy policy.passed
+Then user clicks on the continue button.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trust Wallet Welcome Screen" name="Trust Wallet Welcome Screen" time="58.497">
+<system-out><![CDATA[Given user launches the trust wallet app....................................passed
+When user can see the inscription private and secure, create a new wallet and i already have a wallet buttons.passed
+And user can swipe to the right to see the inscription all assets in one place.passed
+And user can swipe to the right again to see the inscription trade assets...passed
+And user can swipe to the right to see the last screen with the inscription explore decentralized apps.passed
+Then user clicks on the create a new wallet button..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
